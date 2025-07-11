@@ -1,14 +1,6 @@
-export interface Game {
-  id: string;
-  genre: string;
-  image: string;
-  name: string;
-  description: string;
-  price: number;
-  isNew: boolean;
-}
+import { IGame } from "@/interfaces";
 
-export const allGames: Game[] = [
+export const allGames: IGame[] = [
   {
     id: "1",
     genre: "Action",
